@@ -47,13 +47,15 @@ b)resourcespace
 c)namespace
 d)nodespace
 
+Ans. c. Namespace
+
 7.Data packets are streamed to first DataNode in the ________
 a)handshake
 b)pipeline
 c)harddisk
 d)hdfs
 
-Ans. d.hdfs
+Ans. d.pipeline
 
 
 8.The client has finished writing data, it calls _______on the stream.
@@ -62,6 +64,8 @@ b)read()
 c)open()
 d)check()
 
+Ans. a.close()
+
 9.Blocks are read in order, with the
 _________opening new connections to datanodes as the client reads through the stream.
 a)DFSoutputstream
@@ -69,9 +73,13 @@ b)DFSInputStream
 c)DFStrackManager
 d)DFSStringConcatination
 
+Ans. a.DFSoutputstream
+
 10.If I have 100 input splits, how many maps will run?
 a)200
 b)50
 c)100
 d)1
+
+Ans. c.100
 
